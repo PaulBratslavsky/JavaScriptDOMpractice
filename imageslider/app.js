@@ -16,7 +16,7 @@
   console.log(imageContainer);
 
   // set initial image 
-  imageContainer.style.background = `url('img/${carPictures[counter]}.jpg')`;
+  imageContainer.style.background = `url('img/${carPictures[counter]}.jpg') center/cover fixed no-repeat`;
 
   // querySelectorAll allows us to use forEach method
   const button = document.querySelectorAll('button');
@@ -44,7 +44,7 @@
           counter = 0;
         }
 
-        imageContainer.style.background = `url('img/${carPictures[counter]}.jpg')`;
+        imageContainer.style.background = `url('img/${carPictures[counter]}.jpg') center/cover fixed no-repeat`;
 
       }
     })
