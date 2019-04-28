@@ -10,7 +10,8 @@ body {
 .full {
   height: 100vh;
   width: 100vw;
-  background: black;
+  background: rgb(14, 29, 43);
+  color: whitesmoke;
 }
 
 .flex {
@@ -18,6 +19,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 1rem;
 }
 
 .hide {
